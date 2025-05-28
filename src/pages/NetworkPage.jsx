@@ -3,7 +3,7 @@ import { axiosInstance } from "../lib/axios";
 import Sidebar from "../components/Sidebar";
 import { UserPlus } from "lucide-react";
 import FriendRequest from "../components/FriendRequest";
-import UserCard from "../components/UserCard";
+import UserCard from "../components/Usercard";
 
 const NetworkPage = () => {
 	const { data: user } = useQuery({ queryKey: ["authUser"] });
